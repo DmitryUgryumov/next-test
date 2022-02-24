@@ -1,0 +1,33 @@
+.error {
+  max-width: 600px;
+  margin: 0 auto;
+
+  a, button {
+    display: inline-block;
+    margin-top: 30px;
+  }
+
+  &__title {
+    color: darkred;
+  }
+
+  &__description {
+    margin-top: 30px;
+  }
+
+  &__path {
+    font-weight: 700;
+    color: blue;
+  }
+
+  &__link {
+    border: 1px black solid;
+    padding: 3px;
+  }
+
+  &__back {
+    outline: none;
+    border: none;
+    background: gray;
+  }
+}
