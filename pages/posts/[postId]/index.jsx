@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 
 const Post = ({ post, id }) => {
   const router = useRouter();
+  console.log(router);
 
   return (
     <MainLayout title={id}>

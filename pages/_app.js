@@ -6,9 +6,7 @@ import MainLayout from "../components/MainLayout";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <MainLayout>
-        <Component {...pageProps} />
-      </MainLayout>
+      <Component {...pageProps} />
       {/*<style jsx global>*/}
       {/*  {`*/}
       {/*    body {*/}
